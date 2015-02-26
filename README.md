@@ -4,7 +4,7 @@ Docker running automysqlbackup
 
 Automysqlbackup does a really good job at making mysql servers but one at the time for now
 
-you must update the configuration file in order to 
+you must update the configuration file in order to be able to connect to the database 
 
 docker run  -v /volume/on/host/automysqlbackup:/automysqlbackup -t -d --link MYSQLSERVER:MYSQLSERVER nuagebec/automysqlbackup
 
