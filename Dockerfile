@@ -3,7 +3,7 @@ MAINTAINER David Tremblay <david@nuagebec.ca>
 
 #install automysqlbackup
 RUN apt-get update && \
-    apt-get install -y automysqlbackup \
+    apt-get install -y automysqlbackup && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
